@@ -9,7 +9,7 @@ import hashlib
 import sys
 import os
 
-from config.confil_cilent import TAVILY_API_KEY, TAVILY_MAX_RESULTS, TAVILY_SEARCH_DEPTH
+from config.config_cilent import TAVILY_API_KEY, TAVILY_MAX_RESULTS, TAVILY_SEARCH_DEPTH
 from DB.mongo_client import get_collection
 
 
