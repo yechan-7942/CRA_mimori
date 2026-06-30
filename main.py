@@ -1,11 +1,8 @@
-from pydoc import doc
 import sys
 import os
 
-from crawlers import youtube_crawler
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from crawlers import tavily_crawler
 from crawlers.tavily_crawler import crawl
 from crawlers.youtube_crawler import crawl_youtube
 
