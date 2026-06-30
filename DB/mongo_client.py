@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-from config.confil_cilent import MONGO_URI, MONGO_DB, MONGO_COLLECTION
+from config.config_cilent import MONGO_URI, MONGO_DB, MONGO_COLLECTION
 
 _client = None
 
