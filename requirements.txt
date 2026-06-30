@@ -1,0 +1,24 @@
+
+# === 크롤링 (현재 사용 중) ===
+tavily-python==0.7.26
+google-api-python-client==2.197.0
+pymongo==4.17.0
+python-dotenv==1.2.2
+
+# === 전처리 / 임베딩 (다음 단계: BGE-M3 파이프라인) ===
+FlagEmbedding==1.4.0
+torch==2.12.1
+beautifulsoup4==4.14.3
+
+# === 벡터DB / RAG (다음 단계: Qdrant 연동, Qwen3 연결) ===
+qdrant-client==1.18.0
+langchain==1.3.10
+langchain-community==0.4.2
+langchain-ollama==1.1.0
+ollama==0.6.2
+
+# === 트렌드 분석 (Z-score, Robust Scaling) ===
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.9.0
+requests==2.34.2
